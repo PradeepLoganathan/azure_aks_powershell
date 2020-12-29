@@ -17,3 +17,5 @@ az aks create --resource-group $resourcegroup `
    --name $clustername
 
 kubectl get nodes
+
+az group delete --name $resourcegroup --yes
